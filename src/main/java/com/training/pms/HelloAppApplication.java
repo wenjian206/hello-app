@@ -16,5 +16,8 @@ public class HelloAppApplication {
 	public String sayHello() {
 		return "Hello My Friend";
 	}
-
+	@GetMapping("/sayHello")
+	public String sayBye() {
+		return "Bye My Friend";
+	}
 }
